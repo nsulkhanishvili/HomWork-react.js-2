@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.Counter {
+  padding: 30px;
+  background-color: rgb(176, 202, 202);
+  border-radius: 30px;
+  border: 1px solid aqua;
+}
+
+input {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.Button {
+  background-color: rgb(185, 196, 199);
+  color: black;
+  border: none;
+  width: 120px;
+  font-size: 18px;
+  margin: 5px;
+  padding: 10px;
+}
