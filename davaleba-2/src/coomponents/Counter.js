@@ -13,13 +13,13 @@ export default function Counter({stratValue, increase}) {
     }
   };
 
-  //  useEffect (() => {
-  //   if (stratValue) {
-  //     setNumber(stratValue);
-  //   } else {
-  //     setNumber (0);
-  //   }
-  //  }, [stratValue]);
+   useEffect (() => {
+    if (stratValue) {
+      setNumber(stratValue);
+    } else {
+      setNumber (0);
+    }
+   }, [stratValue]);
 
     return (
       <div className="Counter">
